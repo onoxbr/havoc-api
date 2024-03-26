@@ -1,0 +1,305 @@
+{
+    "weapons": {
+        "secondaries": {
+            "gk_20": {
+                "name": "GK-20",
+                "fireRate": "475 RPM",
+                "armorPen": "%0",
+                "recoil": "%90",
+                "handling": "100%",
+                "ammo": "15/60",
+                "walkSpeed": "3,77 m/s",
+                "killReward": "$375",
+                "value": "$200"
+            },
+            "c10_s": {
+                "name": "C10-S",
+                "fireRate": "375 RPM",
+                "armorPen": "%0",
+                "recoil": "%91",
+                "handling": "100%",
+                "ammo": "14/56",
+                "walkSpeed": "3,77 m/s",
+                "killReward": "$375",
+                "value": "$200"
+            },
+            "double_barrel": {
+                "name": "Double Barrel",
+                "fireRate": "180 RPM",
+                "armorPen": "%0",
+                "recoil": "%20",
+                "handling": "51%",
+                "ammo": "2/10",
+                "walkSpeed": "3,77 m/s",
+                "killReward": "$300",
+                "value": "$600"
+            },
+            "st_9": {
+                "name": "ST-9",
+                "fireRate": "680 RPM",
+                "armorPen": "%25",
+                "recoil": "%86",
+                "handling": "47%",
+                "ammo": "16/64",
+                "walkSpeed": "3,77 m/s",
+                "killReward": "$300",
+                "value": "$450"
+            },
+            "r50": {
+                "name": "R50",
+                "fireRate": "130 RPM",
+                "armorPen": "%50",
+                "recoil": "%57",
+                "handling": "30%",
+                "ammo": "6/30",
+                "walkSpeed": "3,77 m/s",
+                "killReward": "$250",
+                "value": "$700"
+            }
+        },
+        "primaries": {
+            "mac40": {
+                "name": "MAC40",
+                "fireRate": "690 RPM",
+                "armorPen": "%35",
+                "recoil": "%92",
+                "handling": "58%",
+                "ammo": "20/80",
+                "walkSpeed": "3,77 m/s",
+                "killReward": "$400",
+                "value": "$1500"
+            },
+            "tp_100": {
+                "name": "TP-100",
+                "fireRate": "835 RPM",
+                "armorPen": "%0",
+                "recoil": "%92",
+                "handling": "29%",
+                "ammo": "40/120",
+                "walkSpeed": "3,77 m/s",
+                "killReward": "$300",
+                "value": "$1650"
+            },
+            "kg_12": {
+                "name": "KG-12",
+                "fireRate": "75 RPM",
+                "armorPen": "%0",
+                "recoil": "%62",
+                "handling": "39%",
+                "ammo": "6/24",
+                "walkSpeed": "3,77 m/s",
+                "killReward": "$300",
+                "value": "$1700"
+            },
+            "zr_10": {
+                "name": "ZR-10",
+                "fireRate": "575 RPM",
+                "armorPen": "%0",
+                "recoil": "%90",
+                "handling": "44%",
+                "ammo": "32/96",
+                "walkSpeed": "3,77 m/s",
+                "killReward": "$150",
+                "value": "$2750"
+            },
+            "scar_lm": {
+                "name": "SCAR-LM",
+                "fireRate": "620 RPM",
+                "armorPen": "%30",
+                "recoil": "%90",
+                "handling": "44%",
+                "ammo": "30/90",
+                "walkSpeed": "3,77 m/s",
+                "killReward": "$250",
+                "value": "$3000"
+            },
+            "ak_510": {
+                "name": "AK-510",
+                "fireRate": "550 RPM",
+                "armorPen": "%40",
+                "recoil": "%84",
+                "handling": "58%",
+                "ammo": "30/90",
+                "walkSpeed": "3,77 m/s",
+                "killReward": "$250",
+                "value": "$3200"
+            },
+            "trg_42": {
+                "name": "TRG-42",
+                "fireRate": "45 RPM",
+                "armorPen": "%50",
+                "recoil": "%66",
+                "handling": "0%",
+                "ammo": "4/20",
+                "walkSpeed": "3,48 m/s",
+                "killReward": "$200",
+                "value": "$3700"
+            }
+        }
+    },
+    "maps": {
+        "cattail_creek": {
+            "modes": "Bomb Defusal, TDM, FFA, Gun Game, Sniper Only & CTF",
+            "gameName": "Cattail Creek",
+            "name": "cattail_creek"
+        },
+        "oldtail": {
+            "modes": "Bomb Defusal, TDM, FFA, Gun Game, Sniper Only & CTF",
+            "gameName": "OldTail",
+            "name": "oldtail"
+        },
+        "demo_hq": {
+            "modes": "TDM, FFA, Gun Game, Sniper Only & CTF",
+            "gameName": "Demo HQ",
+            "name": "demo_hq"
+        },
+        "village": {
+            "modes": "TDM, FFA, Gun Game, Sniper Only & CTF",
+            "gameName": "Village",
+            "name": "village"
+        }
+    },
+    "utilities": {
+        "non_lethal": {
+            "smoke": {
+                "name": "Smoke",
+                "cost": "$250"
+            },
+            "flashbang": {
+                "name": "Flashbang",
+                "cost": "150"
+            },
+            "radar": {
+                "name": "Radar",
+                "cost": "$350"
+            },
+            "deployable_wall": {
+                "name":"Deployable Wall",
+                "cost": "$250"
+            },
+            "reinforcement": {
+                "name": "Reinforcement",
+                "cost":"$250"
+            }
+        },
+        "lethal": {
+            "frag": {
+                "name": "Frag",
+                "cost":"$250"
+            },
+            "incendiary": {
+                "name": "Incendiary",
+                "cost":"$300"
+            },
+            "c4": {
+                "name": "C4",
+                "cost":"$100"
+            },
+            "tear_gas": {
+                "name": "Tear Gas",
+                "cost":"$300"
+            }
+        },
+        "armor": {
+            "half_armor": {
+                "name": "Half Armor",
+                "cost":"$500",
+                "armor": "15"
+            },
+            "full_armor": {
+                "name": "Full Armor",
+                "cost":"$1000",
+                "armor": "30"
+            }
+        }
+    },
+    "powerups": {
+        "rocket_launcher": {
+            "kills": 5,
+            "name": "Rocket Launcher"
+        },
+        "minigun": {
+            "kills": 5,
+            "name": "Minigun"
+        }
+    },
+    "ranks": [
+        {
+            "name": "Unranked",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_202647185-removebg-preview.png?1711409234420"
+        },
+        {
+            "name": "Bronze 1",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201103560-removebg-preview.png?v=1711408285528"
+        },
+        {
+            "name": "Bronze 2",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201418371-removebg-preview.png?1711408471788"
+        },
+        {
+            "name": "Bronze 3",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201502567-removebg-preview.png?1711408567627"
+        },
+        {
+            "name": "Silver 1",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201703920-removebg-preview.png?1711408761092"
+        },
+        {
+            "name": "Silver 2",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201710207-removebg-preview.png?1711408866753"
+        },
+        {
+            "name": "Silver 3",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201714823-removebg-preview.png?1711408887456"
+        },
+        {
+            "name": "Gold 1",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201720010-removebg-preview.png?1711408950381"
+        },
+        {
+            "name": "Gold 2",
+            "img":"https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201723611-removebg-preview.png?1711408970630"
+        },
+        {
+            "name": "Gold 3",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201731007-removebg-preview.png?1711408944556"
+        },
+        {
+            "name": "Platinum 1",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201735574-removebg-preview.png?1711409023592"
+        },
+        {
+            "name": "Platinum 2",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201739238-removebg-preview.png?1711409028355"
+        },
+        {
+            "name": "Platinum 3",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201748312-removebg-preview.png?1711409017203"
+        },
+        {
+            "name": "Diamond 1",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201757646-removebg-preview.png?1711409081852"
+        },
+        {
+            "name": "Diamond 2",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201801583-removebg-preview.png?1711409085612"
+        },
+        {
+            "name": "Diamond 3",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201807766-removebg-preview.png?1711409083710"
+        },
+        {
+            "name": "Chaos 1",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201812130-removebg-preview.png?1711409150429"
+        },
+        {
+            "name": "Chaos 2",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201818816-removebg-preview.png?1711409153516"
+        },
+        {
+            "name": "Chaos 3",
+            "img": "https://cdn.glitch.global/7985612c-8cbd-4f64-91f9-e09b0e3029a9/imagem_2024-03-25_201823690-removebg-preview.png?1711409148215"
+        }
+
+    ]
+}
